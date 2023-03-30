@@ -1,0 +1,19 @@
+.layout {
+    display: grid;
+    grid: "video-principal propaganda" 56px
+          "video-principal video-lista" auto
+          / 543px auto;
+    grid-gap: 20px;
+}
+.video-principal {
+    grid-area: video-principal;
+    background-color: burlywood;
+}
+.propaganda {
+    grid-area: propaganda;
+    background-color: brown;
+}
+.video-lista {
+    grid-area: video-lista;
+    background-color: teal;
+}
