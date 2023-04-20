@@ -7,25 +7,21 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: 'roboto', sans-serif;
 }
 .layout {
     width: 900px;
     height: 415px;
     padding: 38px 35px 35px 35px;
-    background-color: bisque;
+    background-color: #F7F7F7;
 }
-/* .video-principal {
-    width: 543px;
-    background-color: brown;
-} */
-.propaganda {
-    display: flex;
-    justify-content: center;
+.titulo-lista {
+    font-size: 14px;
+    font-weight: 700;
 }
-.video-lista {
-    display: flex;
-    height: auto;        
+.autor-lista,
+.visualizacao-lista,
+.tempo-lista {
+    font-size: 11px;
+    font-weight: 300;
 }
-/* .video-lista img {
-    display: block;
-} */

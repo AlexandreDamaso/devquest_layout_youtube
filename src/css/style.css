@@ -7,7 +7,6 @@
 }
 .video-principal {
     grid-area: video-principal;
-    background-color: burlywood;
 }
 .propaganda {
     grid-area: propaganda;
@@ -15,5 +14,36 @@
 }
 .video-lista {
     grid-area: video-lista;
-    background-color: teal;
+}
+.propaganda {
+    display: flex;
+    justify-content: center;
+}
+.video-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 71px;        
+}
+.titulo-principal {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.visualizacao-principal {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.descricao-principal {
+    font-size: 16px;
+    font-weight: 300;
+}
+.thumb-video {
+    display: flex;
+}
+.thumb-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
